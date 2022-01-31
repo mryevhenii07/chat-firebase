@@ -7,9 +7,6 @@ export default function FriendListItem({ avatar, name, isOnline, id }) {
   // let isOnline = true;
   return (
     <li className={styles.itemFriends} key={id}>
-      {/* <span className="friends-status-green ">
-        {isOnline === true ? "Yes" : "No"}
-      </span> */}
       <span
         className={
           isOnline ? styles.friendsStatusGreen : styles.friendsStatusRed
