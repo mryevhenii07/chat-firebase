@@ -1,16 +1,15 @@
 import styles from "./Statistics.module.css";
-export default function Statistics(data) {
-  //   random color:
+export default function Statistics({ title, stats }) {
   const getRandomHexColor = () => {
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   };
 
   return (
     <section className={styles.statistics}>
-      <h2 className={styles.title}>Upload stats</h2>
+      {title && <h2 className={styles.title}>{title}</h2>}
 
       <ul className={styles.statList}>
-        {data.stats.map((item) => (
+        {stats.map((item) => (
           <li
             className={styles.item}
             key={item.id}
