@@ -5,7 +5,7 @@ import Statistics from "./camponents/statistics";
 import data from "./data.json";
 import friends from "./friends.json";
 // import FriendListItem from "./camponents/FriendListItem";
-import FriendList from "./camponents/FriendList";
+import FriendList from "./camponents/FriendList/FriendList";
 import transactions from "./transactions.json";
 import TransactionHistory from "./camponents/transactionHistory";
 

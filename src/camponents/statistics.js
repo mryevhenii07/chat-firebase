@@ -1,5 +1,9 @@
 export default function Statistics(data) {
-  console.log(data.stats);
+  //   random color:
+  // const getRandomHexColor = () => {
+  //   return #${Math.floor(Math.random() * 16777215).toString(16)};
+  // };
+
   return (
     <section className="statistics">
       <h2 className="title">Upload stats</h2>

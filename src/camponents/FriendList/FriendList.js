@@ -1,10 +1,14 @@
-import FriendListItem from "camponents/FriendListItem";
+import FriendListItem from "camponents/FriendListItem/FriendListItem";
+import PropTypes from "prop-types";
+import styles from "./FriendList.module.css";
+
 // import friends from "../friends.json";
 
 export default function FriendList({ users }) {
+  console.log(users);
   // let isOnline = true;
   return (
-    <ul className="friend-list">
+    <ul className={styles.friendList}>
       {users.map((item) => (
         <FriendListItem
           key={item.id}
@@ -17,3 +21,6 @@ export default function FriendList({ users }) {
     </ul>
   );
 }
+FriendList.propTypes = {
+  users: PropTypes.array.isRequired,
+};

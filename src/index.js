@@ -9,15 +9,7 @@ import App from "./App";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <FriendList /> */}
-    {/* <Statistics /> */}
   </React.StrictMode>,
-  // <Profile
-  //   username={user.username}
-  //   tag={user.tag}
-  //   location={user.location}
-  //   avatar={user.avatar}
-  //   stats={user.stats}
-  // />,
+
   document.getElementById("root")
 );

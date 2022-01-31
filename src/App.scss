@@ -125,29 +125,6 @@ li {
   width: 25%;
   background-color: rgb(105, 80, 173);
 }
-.item-friends {
-  display: flex;
-  width: 300px;
-  margin: 0 auto;
-  height: 70px;
-  box-shadow: 2px 0 10px 2px;
-  background-color: rgb(228, 208, 208);
-  margin-bottom: 10px;
-}
-.friends-status {
-  background-color: rgb(32, 122, 77);
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  margin: 30px;
-}
-.friend-name {
-  margin-left: 15px;
-  display: flex;
-  align-items: center;
-  width: 60%;
-  height: 100%;
-}
 
 /*------------------------------*/
 .transaction-history {
