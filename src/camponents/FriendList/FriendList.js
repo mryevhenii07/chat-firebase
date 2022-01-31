@@ -17,5 +17,5 @@ export default function FriendList({ users }) {
   );
 }
 FriendList.propTypes = {
-  users: PropTypes.array.isRequired,
+  users: PropTypes.arrayOf(PropTypes.shape({ id: PropTypes.number })),
 };
