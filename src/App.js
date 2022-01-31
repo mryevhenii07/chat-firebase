@@ -1,13 +1,13 @@
 import "./App.scss";
 import Profile from "./camponents/profile";
 import user from "./user.json";
-import Statistics from "./camponents/statistics";
+import Statistics from "./camponents/Statistics/statistics";
 import data from "./data.json";
 import friends from "./friends.json";
 // import FriendListItem from "./camponents/FriendListItem";
 import FriendList from "./camponents/FriendList/FriendList";
 import transactions from "./transactions.json";
-import TransactionHistory from "./camponents/transactionHistory";
+import TransactionHistory from "./camponents/TransactionHistory/transactionHistory";
 
 function App() {
   return (

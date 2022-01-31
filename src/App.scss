@@ -101,37 +101,5 @@ li {
   display: block;
 }
 /*--------------------------------------------------------------------------------------*/
-.statistics {
-  margin: 0 auto;
-  width: 300px;
-  background-color: rgb(218, 200, 200);
-  border-radius: 8px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.title {
-  padding: 15px 0;
-  text-align: center;
-  width: 100%;
-  color: rgb(126, 109, 109);
-}
-.stat-list {
-  display: flex;
-  justify-content: space-evenly;
-}
-.stat-list .item {
-  padding: 10px 0;
-  text-align: center;
-  width: 25%;
-  background-color: rgb(105, 80, 173);
-}
 
 /*------------------------------*/
-.transaction-history {
-  width: 500px;
-  margin: 0 auto;
-}
-
-.title-th {
-  background-color: aqua;
-}
