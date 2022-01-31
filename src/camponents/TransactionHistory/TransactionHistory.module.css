@@ -1,5 +1,4 @@
 .transactionHistory {
-  margin-left: 200px;
   width: 500px;
   text-align: center;
   margin: 50px 0;
@@ -17,4 +16,7 @@
 
 .subTitleTh {
   background-color: #dfe7eb;
+}
+tr {
+  border: 1px solid red;
 }

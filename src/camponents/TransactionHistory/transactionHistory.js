@@ -1,7 +1,6 @@
 import styles from "./TransactionHistory.module.css";
 
 export default function TransactionHistory(data) {
-  console.log(data.items);
   return (
     <table className={styles.transactionHistory}>
       <thead>

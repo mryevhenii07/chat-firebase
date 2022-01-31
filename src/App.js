@@ -1,12 +1,12 @@
 import "./App.scss";
-import Profile from "./camponents/profile";
-import user from "./user.json";
+import Profile from "./camponents/Profile/profile";
+import user from "./data/user.json";
 import Statistics from "./camponents/Statistics/statistics";
-import data from "./data.json";
-import friends from "./friends.json";
+import data from "./data/data.json";
+import friends from "./data/friends.json";
 // import FriendListItem from "./camponents/FriendListItem";
 import FriendList from "./camponents/FriendList/FriendList";
-import transactions from "./transactions.json";
+import transactions from "./data/transactions.json";
 import TransactionHistory from "./camponents/TransactionHistory/transactionHistory";
 
 function App() {

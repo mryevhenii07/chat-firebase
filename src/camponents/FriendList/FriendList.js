@@ -5,7 +5,6 @@ import styles from "./FriendList.module.css";
 // import friends from "../friends.json";
 
 export default function FriendList({ users }) {
-  console.log(users);
   // let isOnline = true;
   return (
     <ul className={styles.friendList}>
