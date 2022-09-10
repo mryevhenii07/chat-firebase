@@ -1,4 +1,7 @@
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
+
+import { auth } from "./firebase";
 import NavBar from "./component/NavBar";
 
 const style = {
@@ -7,6 +10,8 @@ const style = {
     "flex flex-col h-[90vh] bg-gray=100 mt-10 shadow-xl border relative",
 };
 function App() {
+  const [user] = useAuthState(auth);
+  console.log(user);
   return (
     <div className={style.appContainer}>
       <section className={style.sectionContainer}>
